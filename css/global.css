@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 *,
-*::after,
-*::before {
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,12 +10,13 @@
 }
 
 :root {
-    --text-color: #000;
-    --border-color: #000;
+    --text-color: black;
+    --border-color: black;
+    --background-color: white;
     --accent-color: #a5c7cf;
-    --background-color: #fff;
-    scroll-behavior: smooth;
     font-family: "DotGothic16", sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
     color: var(--text-color);
 }
 
